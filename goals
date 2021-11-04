@@ -1,0 +1,20 @@
+# how the data is collected
+- The data in this project is collected from the 
+historical openwethermap api for the last 7 days.
+eatch day is brought in and processed before being appended
+to a df
+
+
+# data and columbs
+there are 4 columbs in my dataset, dt,temp,humidity andwind_speed
+
+dt represents a date and comes in as a unix timestamp
+
+temp represents the temp at that timestamp
+
+humidity is the humidity at a given timestamp
+
+and wind speed is the same for wind speed
+
+all the data is taken hrly for 7 days to be averaged out
+into the average windspeed, temp and humidity for manchester.
